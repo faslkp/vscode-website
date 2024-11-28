@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+div.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1135px;
+}
+
+header {
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+header div.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div.wrapper div.left {
+  display: flex;
+  align-items: center;
+}
+header div.wrapper div.left div.logo {
+  display: block;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+header div.wrapper div.left div.logo div.logo-img-box {
+  width: 25px;
+  display: block;
+  margin-right: 10px;
+}
+header div.wrapper div.left div.logo div.logo-img-box img {
+  display: block;
+  width: 100%;
+}
+header div.wrapper div.left div.logo h1 {
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+  line-height: 20px;
+}
+header div.wrapper div.left ul.nav {
+  display: flex;
+  align-items: center;
+}
+header div.wrapper div.left ul.nav li {
+  margin-right: 25px;
+}
+header div.wrapper div.left ul.nav li a {
+  font-size: 16px;
+  font-weight: 500;
+}
+header div.wrapper div.nav-right {
+  display: flex;
+  align-items: center;
+}
+header div.wrapper div.nav-right div.theme-switch {
+  width: 20px;
+  display: block;
+  margin-right: 10px;
+}
+header div.wrapper div.nav-right div.theme-switch img {
+  display: block;
+  width: 100%;
+}
+header div.wrapper div.nav-right form.search {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border: 1px solid #bbb9b9;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+header div.wrapper div.nav-right form.search div.search-icon-box {
+  width: 15px;
+  display: block;
+  margin-right: 10px;
+}
+header div.wrapper div.nav-right form.search div.search-icon-box img {
+  display: block;
+  width: 100%;
+}
+header div.wrapper div.nav-right form.search input[type=text] {
+  border: none;
+  height: 28px;
+  width: 100px;
+  font-size: 16px;
+}
+header div.wrapper div.nav-right form.search input[type=text]:focus {
+  outline: none;
+  border: none;
+}
+header div.wrapper div.nav-right a.button {
+  padding: 4px 12px;
+  border-radius: 6px;
+  background: #0076bf;
+  color: #fff;
+}
+
+#main div.wrapper h1 {
+  font-size: 72px;
+  max-width: 1000px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.8px;
+  text-align: center;
+  margin: 100px auto 25px;
+}
+#main div.wrapper h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+  margin-bottom: 32px;
+  max-width: 720px;
+  color: #475569;
+  margin: 0 auto;
+  text-align: center;
+}
+#main div.wrapper div.bottom {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 125px;
+}
+#main div.wrapper div.bottom div.download {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+#main div.wrapper div.bottom div.download a.button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100px;
+  text-align: center;
+  height: 50px;
+}
+#main div.wrapper div.bottom div.download a.button span.img {
+  width: 20px;
+  display: block;
+  margin-right: 10px;
+}
+#main div.wrapper div.bottom div.download a.button span.img img {
+  display: block;
+  width: 100%;
+}
+#main div.wrapper div.bottom div.download a.button span.text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+#main div.wrapper div.bottom div.download a.button span.desc {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #fff;
+}
+#main div.wrapper div.bottom div.download a.download {
+  background: #0078d4;
+  margin-right: 10px;
+}
+#main div.wrapper div.bottom div.download a.try {
+  width: 150px;
+  font-weight: 700;
+  background: #eaeaea;
+}
+#main div.wrapper div.bottom p {
+  font-size: 12px;
+}
+#main div.wrapper div.bottom p a {
+  color: #005fb8;
+  text-decoration: underline;
+}
+#main div.wrapper div.bottom p.license-agreement {
+  margin-top: 15px;
+  font-size: 11px;
+  display: none;
+}
+#main div.wrapper div.bottom:hover p.license-agreement {
+  display: block;
+}
+
+#screenshot div.wrapper {
+  background-image: url("../images/home-screenshot-copilot-light.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 16px;
+}
+
+#features {
+  padding: 40px 0;
+}
+#features div.wrapper div.feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#features div.wrapper div.feature div.left {
+  width: 30%;
+}
+#features div.wrapper div.feature div.left h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.5px;
+}
+#features div.wrapper div.feature div.left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #476559;
+  margin-bottom: 24px;
+}
+#features div.wrapper div.feature div.left p:last-child {
+  margin-bottom: 0;
+}
+#features div.wrapper div.feature div.left p a {
+  color: #005fb8;
+  text-decoration: underline;
+}
+#features div.wrapper div.feature div.right {
+  width: 65%;
+}
+#features div.wrapper div.feature div.right img.feature-img {
+  width: 100%;
+  display: block;
+}
+#features div.wrapper div.feature div.right ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#features div.wrapper div.feature div.right ul.languages li {
+  display: flex;
+  align-items: center;
+  width: 33%;
+}
+#features div.wrapper div.feature div.right ul.languages li div.img {
+  width: 40px;
+  margin-right: 15px;
+}
+#features div.wrapper div.feature div.right ul.languages li div.img img {
+  display: block;
+  width: 100%;
+}
+#features div.wrapper div.feature div.right ul.languages li span.name {
+  font-size: 16px;
+}
+#features div.wrapper div.feature div.right ul.extensions li {
+  display: flex;
+  padding: 10px 8px;
+  margin-bottom: 10px;
+  width: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.01);
+  border-radius: 8px;
+}
+#features div.wrapper div.feature div.right ul.extensions li div.left {
+  width: 40px;
+  display: block;
+  margin-right: 10px;
+}
+#features div.wrapper div.feature div.right ul.extensions li div.left img {
+  width: 100%;
+  display: block;
+}
+#features div.wrapper div.feature div.right ul.extensions li div.right h6 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+#features div.wrapper div.feature div.right ul.extensions li div.right p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #475569;
+  letter-spacing: 0;
+}
+#features div.wrapper div.feature div.right p.more {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+#features div.wrapper div.feature div.right p.more a {
+  text-decoration: underline;
+  color: #005fb8;
+}/*# sourceMappingURL=style.css.map */
