@@ -22,6 +22,10 @@ div.wrapper {
 header {
   height: 58px;
   display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
   align-items: center;
 }
 header div.wrapper {
@@ -114,6 +118,9 @@ header div.wrapper div.nav-right a.button {
   color: #fff;
 }
 
+#main {
+  padding-top: 30px;
+}
 #main div.wrapper h1 {
   font-size: 72px;
   max-width: 1000px;
@@ -207,7 +214,7 @@ header div.wrapper div.nav-right a.button {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   border-radius: 16px;
 }
@@ -309,4 +316,104 @@ header div.wrapper div.nav-right a.button {
 #features div.wrapper div.feature div.right p.more a {
   text-decoration: underline;
   color: #005fb8;
+}
+
+#more-features {
+  padding: 50px 0;
+}
+#more-features div.wrapper h4 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 150%;
+  text-align: center;
+}
+#more-features div.wrapper p.section-desc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #475569;
+  max-width: 500px;
+  margin: 12px auto 40px;
+  text-align: center;
+}
+#more-features div.wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+}
+#more-features div.wrapper ul li {
+  width: 19%;
+  margin-bottom: 20px;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+#more-features div.wrapper ul li a div.img {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 25px;
+}
+#more-features div.wrapper ul li a div.img img {
+  display: block;
+  width: 100%;
+}
+#more-features div.wrapper ul li a h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 8px;
+}
+#more-features div.wrapper ul li a p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #475569;
+}
+
+footer {
+  padding: 50px 0px 100px;
+}
+footer div.wrapper div.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+footer div.wrapper div.top ul.social {
+  display: flex;
+  align-items: center;
+}
+footer div.wrapper div.top ul.social li {
+  margin-right: 20px;
+}
+footer div.wrapper div.top ul.social li a {
+  width: 25px;
+  display: block;
+}
+footer div.wrapper div.top ul.social li a img {
+  display: block;
+  width: 100%;
+}
+footer div.wrapper div.top ul.social li:first-child a {
+  width: 20px;
+}
+footer div.wrapper div.bottom ul {
+  display: flex;
+  align-items: center;
+}
+footer div.wrapper div.bottom ul li {
+  margin-right: 15px;
+}
+footer div.wrapper div.bottom ul li a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
 }/*# sourceMappingURL=style.css.map */
